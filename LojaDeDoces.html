@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>🍬Loja de Doces🩸</title>
+  <link rel="stylesheet" href="LojaDeDoce.css">
+</head>
+<body>
+
+  
+  <header class="banner">
+    <img src="Banner4.gif" alt="Banner Loja de Doces">
+  </header>
+
+<nav>
+  <h1>🍬 Loja de Doces 🩸</h1>
+  <ul class="menu">
+    <li><a href="#">Início</a></li>
+    <li><a href="#produtos">Doces</a></li>
+  </ul>
+  <div class="carrinho-mini">
+    <span id="totalDoces">0</span> 🩸doces🗡️ R$ <span id="totalReais">0</span>
+  </div>
+</nav>
+
+  <div class="intro">
+    <img src="Banner6.jpg" alt="">
+  </div>
+
+  <section class="produtos">
+    <div  id="produtos" class="produto">
+      <img src="Brigadeiro.jpg" alt="Brigadeiro">
+      <h3>Brigadeiro</h3>
+      <p>R$ 7</p>
+      <input type="number" min="0" value="0" class="qtd" data-preco="7">
+    </div>
+
+    <div class="produto">
+      <img src="Beijinho.jpg" alt="Beijinho">
+      <h3>Beijinho</h3>
+      <p>R$ 2</p>
+      <input type="number" min="0" value="0" class="qtd" data-preco="2">
+    </div>
+
+    <div class="produto">
+      <img src="Bolo.jpg" alt="Bolo">
+      <h3>Bolo</h3>
+      <p>R$ 209</p>
+      <input type="number" min="0" value="0" class="qtd" data-preco="209">
+    </div>
+
+    <div class="produto">
+      <img src="Pudim1.jpg" alt="Pudim">
+      <h3>Pudim</h3>
+      <p>R$ 666</p>
+      <input type="number" min="0" value="0" class="qtd" data-preco="666">
+    </div>
+  </section>
+
+
+  <div class="finalizar-container">
+    <button id="btnFinalizar">🗡️Finalizar Compra🩸</button>
+  </div>
+
+  <script src="LojaDeDoces.js"></script>
+
+  <!-- Ki Ki Ma Ma🎠🎠🎠 -->
+<div id="jumpscare" class="jumpscare hidden">
+  <img src="Jason_new_outro_.webp" alt="Jumpscare">
+  <div class="resumo">
+    <h2>Compra finalizada!🐴🐴</h2>
+    <p>Total de doces: <span id="resumoDoces"></span></p>
+    <p>Total a pagar: R$ <span id="resumoReais"></span></p>
+  </div>
+</div>
+</body>
+</html>
